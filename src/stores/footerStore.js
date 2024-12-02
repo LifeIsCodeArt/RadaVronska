@@ -9,48 +9,48 @@ export const useFooterItemsStore = defineStore('footerItems', () => {
 
         {
             id: 1,
-            icon: './src/assets/icons/footer/facebook-icon.svg',
-            icon_white: './src/assets/icons/footer/facebook-white-icon.svg',
+            icon: 'assets/icons/footer/facebook-icon.svg',
+            icon_white: 'assets/icons/footer/facebook-white-icon.svg',
             link: '/',
             icon_description: 'Facebook'
         },
 
         {
             id: 2,
-            icon: './src/assets/icons/footer/twitter-icon.svg',
-            icon_white: './src/assets/icons/footer/twitter-white-icon.svg',
+            icon: '/assets/icons/footer/twitter-icon.svg',
+            icon_white: 'assets/icons/footer/twitter-white-icon.svg',
             link: '/',
             icon_description: 'Twitter'
         },
 
         {
             id: 3,
-            icon: './src/assets/icons/footer/instagram-icon.svg',
-            icon_white: './src/assets/icons/footer/instagram-white-icon.svg',
+            icon: '/assets/icons/footer/instagram-icon.svg',
+            icon_white: 'assets/icons/footer/instagram-white-icon.svg',
             link: '/',
             icon_description: 'Instagram'
         },
 
         {
             id: 4,
-            icon: './src/assets/icons/footer/youtube-icon.svg',
-            icon_white: './src/assets/icons/footer/youtube-white-icon.svg',
+            icon: '/assets/icons/footer/youtube-icon.svg',
+            icon_white: 'assets/icons/footer/youtube-white-icon.svg',
             link: '/',
             icon_description: 'Youtube'
         },
 
         {
             id: 5,
-            icon: './src/assets/icons/footer/google-sheets-icon.svg',
-            icon_white: './src/assets/icons/footer/google-sheets-white-icon.svg',
+            icon: '/assets/icons/footer/google-sheets-icon.svg',
+            icon_white: 'assets/icons/footer/google-sheets-white-icon.svg',
             link: '/',
             icon_description: 'Google sheets'
         },
 
         {
             id: 6,
-            icon: './src/assets/icons/footer/share-icon.svg',
-            icon_white: './src/assets/icons/footer/share-white-icon.svg',
+            icon: '/assets/icons/footer/share-icon.svg',
+            icon_white: 'assets/icons/footer/share-white-icon.svg',
             link: '/',
             icon_description: 'Share'
         },

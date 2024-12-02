@@ -9,7 +9,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:1,
       text:'Головна',
       link:'/',
-      icon:'./assets/icons/header-menu/phone-icon.svg',
+      icon:'assets/icons/header-menu/phone-icon.svg',
       icon_description:'Phone',
       class_id:'Menu'
     },
@@ -27,7 +27,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:3,
       text:'Роботи',
       link:'/',
-      icon:'@/icons/header-menu/tools-icon.svg',
+      icon:'assets/icons/header-menu/tools-icon.svg',
       icon_description:'Tools',
       class_id:'Works'
     },
@@ -36,7 +36,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:4,
       text:'Посилання',
       link:'/',
-      icon:'@/assets/icons/header-menu/tools-icon.svg',
+      icon:'assets/icons/header-menu/tools-icon.svg',
       icon_description:'Tools',
       class_id:'Links'
     },
@@ -71,21 +71,21 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
 
     {
       id:4,
-      icon:'./src/assets/icons/socials/youtube-icon.svg',
+      icon:'assets/icons/socials/youtube-icon.svg',
       link:'/',
       icon_description:'Youtube'
     },
 
     {
       id:5,
-      icon:'./src/assets/icons/socials/google-sheets-icon.svg',
+      icon:'assets/icons/socials/google-sheets-icon.svg',
       link:'/',
       icon_description:'Google sheets'
     },
 
     {
       id:6,
-      icon:'./src/assets/icons/socials/share-icon.svg',
+      icon:'assets/icons/socials/share-icon.svg',
       link:'/',
       icon_description:'Share'
     },
