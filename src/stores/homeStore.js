@@ -230,7 +230,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:4,
             text:'Бісероплетіння #4',
             author:'Рада Вронська',
-            image: 'assets/images/article/4444.jpg',
+            image: 'assets/images/article/4444.JPG',
             image_description:'Бісероплетіння'
         },
 
