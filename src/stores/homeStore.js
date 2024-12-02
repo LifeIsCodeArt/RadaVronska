@@ -298,7 +298,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:4,
             text:'Вишивка #4',
             author:'Рада Вронська',
-            image: '/assets/images/article/44444.jpg',
+            image: './assets/images/article/44444.jpg',
             image_description:'Вишивка'
         },
 
@@ -306,7 +306,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:5,
             text:'Вишивка #5',
             author:'Рада Вронська',
-            image: '/assets/images/article/55555.jpg',
+            image: '@/assets/images/article/55555.jpg',
             image_description:'Вишивка'
         },
 
@@ -314,7 +314,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:6,
             text:'Вишивка #6',
             author:'Рада Вронська',
-            image: '/assets/images/article/555555.jpg',
+            image: 'assets/images/article/555555.jpg',
             image_description:'Вишивка'
         },
 
