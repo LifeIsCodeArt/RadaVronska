@@ -677,6 +677,10 @@ video {
   inset: -0.25rem;
 }
 
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
 .bottom-\[330px\] {
   bottom: 330px;
 }
@@ -689,32 +693,12 @@ video {
   left: 0px;
 }
 
-.top-\[10\%\] {
-  top: 10%;
-}
-
-.bottom-4 {
-  bottom: 1rem;
-}
-
-.left-2 {
-  left: 0.5rem;
-}
-
-.top-\[30px\] {
-  top: 30px;
-}
-
-.right-2 {
-  right: 0.5rem;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
 .right-5 {
   right: 1.25rem;
+}
+
+.top-\[10\%\] {
+  top: 10%;
 }
 
 .isolate {
@@ -2125,20 +2109,16 @@ video {
   border-radius: 42px;
 }
 
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
 .rounded-\[50px\] {
   border-radius: 50px;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-\[30\%\] {
-  border-radius: 30%;
-}
-
-.rounded-\[50\%\] {
-  border-radius: 50%;
 }
 
 .rounded-b {
@@ -2380,11 +2360,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .bg-adsImage {
   background-image: url(@/assets/images/ads/bandurist.jpg);
 }
@@ -2525,16 +2500,8 @@ video {
      object-fit: scale-down;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-2\.5 {
-  padding: 0.625rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-3 {
