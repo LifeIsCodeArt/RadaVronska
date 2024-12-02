@@ -9,7 +9,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:1,
       text:'Головна',
       link:'/',
-      icon:'./src/assets/icons/header-menu/phone-icon.svg',
+      icon:'./assets/icons/header-menu/phone-icon.svg',
       icon_description:'Phone',
       class_id:'Menu'
     },
@@ -18,7 +18,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:2,
       text:'Про Мисткиню',
       link:'/',
-      icon:'./src/assets/icons/header-menu/tools-icon.svg',
+      icon:'assets/icons/header-menu/tools-icon.svg',
       icon_description:'Tools',
       class_id:'About'
     },
@@ -27,7 +27,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:3,
       text:'Роботи',
       link:'/',
-      icon:'./src/assets/icons/header-menu/tools-icon.svg',
+      icon:'@/icons/header-menu/tools-icon.svg',
       icon_description:'Tools',
       class_id:'Works'
     },
@@ -36,7 +36,7 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
       id:4,
       text:'Посилання',
       link:'/',
-      icon:'./src/assets/icons/header-menu/tools-icon.svg',
+      icon:'@/assets/icons/header-menu/tools-icon.svg',
       icon_description:'Tools',
       class_id:'Links'
     },
@@ -50,21 +50,21 @@ export const useHeaderItemsStore = defineStore('headerItems', () => {
 
     {
       id:1,
-      icon:'./src/assets/icons/socials/facebook-icon.svg',
+      icon:'assets/icons/socials/facebook-icon.svg',
       link:'/',
       icon_description:'Facebook'
     },
 
     {
       id:2,
-      icon:'./src/assets/icons/socials/twitter-icon.svg',
+      icon:'assets/icons/socials/twitter-icon.svg',
       link:'/',
       icon_description:'Twitter'
     },
 
     {
       id:3,
-      icon:'./src/assets/icons/socials/instagram-icon.svg',
+      icon:'assets/icons/socials/instagram-icon.svg',
       link:'/',
       icon_description:'Instagram'
     },
