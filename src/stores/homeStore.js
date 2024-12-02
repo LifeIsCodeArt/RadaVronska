@@ -206,7 +206,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:1,
             text:'Бісероплетіння #1',
             author:'Рада Вронська',
-            image: 'assets/images/article/1111.jpg',
+            image: 'assets/images/article/1111.JPG',
             image_description:'Бісероплетіння'
         },
 
@@ -222,7 +222,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:3,
             text:'Бісероплетіння #3',
             author:'Рада Вронська',
-            image: 'assets/images/article/3333.jpg',
+            image: 'assets/images/article/3333.JPG',
             image_description:'Бісероплетіння'
         },
 
@@ -238,7 +238,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:5,
             text:'Бісероплетіння #5',
             author:'Рада Вронська',
-            image: 'assets/images/article/5555.jpg',
+            image: 'assets/images/article/5555.JPG',
             image_description:'Бісероплетіння'
         },
 
@@ -274,7 +274,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:1,
             text:'Вишивка #1',
             author:'Рада Вронська',
-            image: 'assets/images/article/11111.jpg',
+            image: 'assets/images/article/11111.JPG',
             image_description:'Вишивка'
         },
 
@@ -282,7 +282,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:2,
             text:'Вишивка #2',
             author:'Рада Вронська',
-            image: 'assets/images/article/22222.jpg',
+            image: 'assets/images/article/22222.JPG',
             image_description:'Вишивка'
         },
 
@@ -338,7 +338,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:9,
             text:'Вишивка #9',
             author:'Рада Вронська',
-            image: 'assets/images/article/222222.jpg',
+            image: 'assets/images/article/222222.JPG',
             image_description:'Вишивка'
         },
 
