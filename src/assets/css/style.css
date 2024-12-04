@@ -1087,6 +1087,14 @@ video {
   height: 2px;
 }
 
+.h-\[320px\] {
+  height: 320px;
+}
+
+.h-\[340px\] {
+  height: 340px;
+}
+
 .h-\[35px\] {
   height: 35px;
 }
