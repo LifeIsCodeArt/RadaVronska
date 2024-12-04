@@ -206,7 +206,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:1,
             text:'Бісероплетіння #1',
             author:'Рада Вронська',
-            image: 'assets/images/article/1111.JPG',
+            image: 'assets/images/article/2222.jpg',
             image_description:'Бісероплетіння'
         },
 
@@ -214,7 +214,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:2,
             text:'Бісероплетіння #2',
             author:'Рада Вронська',
-            image: 'assets/images/article/2222.jpg',
+            image: 'assets/images/article/1111.JPG',
             image_description:'Бісероплетіння'
         },
 
@@ -230,7 +230,7 @@ export const useHomeItemsStore = defineStore('homeItems', () => {
             id:4,
             text:'Бісероплетіння #4',
             author:'Рада Вронська',
-            image: 'assets/images/article/5555.JPG',
+            image: 'assets/images/article/333333.jpg',
             image_description:'Бісероплетіння'
         },
 

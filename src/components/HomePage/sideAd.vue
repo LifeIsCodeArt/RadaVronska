@@ -7,7 +7,7 @@
 
     <div class="z-[1] w-[310px] h-[508px] rounded-[42px] flex justify-center items-center border border-blue-100">
 
-        <div class="bg-adsImage bg-auto bg-center w-[300px] h-[498px] relative flex justify-center items-center rounded-[42px] z-[2] px-4">
+        <div class="bg-adsImage bg-center w-[300px] h-[498px] relative flex justify-center items-center rounded-[42px] z-[2] px-4">
 
             <div class="absolute w-full h-full background_effect z-[5] rounded-[42px] opacity-55"></div>
 

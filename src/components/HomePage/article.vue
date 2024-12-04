@@ -9,7 +9,8 @@ const props = defineProps({
     item: {
         type: Object,
         default: () => {}
-    }
+    },
+  attribute: String
 })
 </script>
 
@@ -19,7 +20,7 @@ const props = defineProps({
     <div class="flex flex-col items-center px-[20px] py-[20px] h-auto w-[387px] rounded-2xl shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] max-xl:w-[350px]"
          :class="darkTheme ? 'bg-[#202434]' : 'bg-white'">
 
-        <img :src="item.image" :alt="item.image_description" class="rounded-2xl h-[500px]">
+        <img :src="item.image" :alt="item.image_description" class="rounded-2xl" :class="attribute === '0' ? 'h-[320px] object-contain' : 'h-[340px] object-fill'">
 
         <div class="flex flex-col mt-[18px]">
 

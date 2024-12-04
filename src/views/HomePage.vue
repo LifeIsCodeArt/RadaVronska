@@ -83,7 +83,7 @@ onBeforeUnmount(() => {
 
                 </div>
 
-                <div id="About" class="text-[20px] text-[#707070] leading-[32px] tracking-[0.5px] font-red_display font-normal mt-[20px] mb-[60px]"
+                <div id="About" class="text-[20px] text-[#707070] leading-[32px] tracking-[0.5px] font-red_display font-normal mt-[20px] mb-[60px] bg-adsImage"
                      :class="darkTheme ? 'text-white' : 'text-[#707070]'">
 
                   <span class="font-bold">Рада Вронська</span> – мисткиня, чия творчість розкриває перед нами дивовижний світ художнього вираження. Її роботи відзначаються глибоким емоційним наповненням і різноманітними техніками, що захоплять кожного, хто побачить їх. На цьому сайті ви знайдете багатий вибір її робіт <span class="font-bold">Рада Вронська</span> — це справжня чарівниця, чиї полотна здатні зачарувати, надихати та відкривати нові горизонти для кожного.
@@ -116,7 +116,7 @@ onBeforeUnmount(() => {
 
                     <div class="grid grid-rows-2 grid-flow-col gap-4  max-xl:h-full max-md:flex max-md:flex-col">
 
-                        <Article v-for="item in articles" :item="item" :key="item.id" />
+                        <Article v-for="item in articles" :item="item" :key="item.id" :attribute="'1'" />
 
                     </div>
 
@@ -133,7 +133,7 @@ onBeforeUnmount(() => {
 
                   <div class="w-full grid grid-rows-2 grid-flow-col gap-4  max-xl:h-full max-md:flex max-md:flex-col">
 
-                        <Article v-for="item in articles2" :item="item" :key="item.id" />
+                        <Article v-for="item in articles2" :item="item" :key="item.id" :attribute="1" />
 
                   </div>
 
@@ -149,7 +149,7 @@ onBeforeUnmount(() => {
 
                   <div class="w-full grid grid-rows-3 grid-flow-col gap-4  max-xl:h-full max-md:flex max-md:flex-col">
 
-                    <Article v-for="item in articles3" :item="item" :key="item.id" />
+                    <Article v-for="item in articles3" :item="item" :key="item.id" :attribute="'1'" />
 
                   </div>
 
