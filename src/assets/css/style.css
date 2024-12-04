@@ -677,6 +677,10 @@ video {
   inset: -0.25rem;
 }
 
+.inset-0 {
+  inset: 0px;
+}
+
 .bottom-5 {
   bottom: 1.25rem;
 }
@@ -2369,7 +2373,7 @@ video {
 }
 
 .bg-adsImage {
-  background-image: url(@/assets/images/ads/bandurist.jpg);
+  background-image: url(@/assets/images/article/111.jpg);
 }
 
 .bg-gradient-to-r {
@@ -2414,6 +2418,10 @@ video {
   background-size: auto;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -2445,6 +2453,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-repeat {
@@ -2623,6 +2635,10 @@ video {
 
 .pr-\[59px\] {
   padding-right: 59px;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pt-\[1px\] {

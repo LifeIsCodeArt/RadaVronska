@@ -9,7 +9,7 @@ module.exports = {
       },
       backgroundImage: {
         'mainImage': 'url(@/assets/images/app/app-bg.png)',
-        'adsImage': 'url(@/assets/images/ads/picture01.jpg)',
+        'adsImage': 'url(@/assets/images/article/111.jpg)',
       }
     },
     plugins: [],
